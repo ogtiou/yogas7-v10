@@ -64,7 +64,7 @@ export default function Home() {
       pointerEvents: 'none'
     })
   }, [text, logos, overlay])
-  
+
   return (
     <div className="overflow-hidden">
       <div ref={overlay} className="fixed w-full h-screen z-[100] bg-cream flex items-center justify-center select-none">
@@ -73,7 +73,7 @@ export default function Home() {
       </div>
       {/* page1 */}
       <div className="relative w-full h-screen overflow-hidden flex items-center justify-center z-10">
-        <video className="w-full h-full object-cover brightness-75 bg-[#1a2c1aa8]" autoPlay loop muted>
+        <video className="w-full h-full object-cover brightness-75 bg-[#1a2c1aa8]" autoPlay loop muted playsInline>
           <source src="/videos/yogavid.webm" type="video/webm"/>
           <source src="/videos/yogavid.mp4" type="video/mp4"/>
         </video>

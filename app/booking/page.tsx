@@ -6,7 +6,7 @@ export default function Booking() {
     <div className="overflow-hidden bg-cream">
         <div className="relative flex flex-col w-full h-[200vh] md:h-screen md:flex-row">
             <div className="relative flex-1 flex items-center justify-center hovered">
-                <video className="w-full h-full object-cover brightness-75 opacity-0 bg-cream show" autoPlay loop muted>
+                <video className="w-full h-full object-cover brightness-75 opacity-0 bg-cream show" autoPlay loop muted playsInline>
                     <source src="/videos/yogavid.webm" type="video/webm"/>
                     <source src="/videos/yogavid.mp4" type="video/mp4"/>
                 </video>
@@ -25,7 +25,7 @@ export default function Booking() {
                 </div>
             </div>
             <div className="relative flex-1 flex items-center justify-center hovered">
-                <video className="w-full h-full object-cover brightness-75 opacity-0 bg-cream show" autoPlay loop muted>
+                <video className="w-full h-full object-cover brightness-75 opacity-0 bg-cream show" autoPlay loop muted playsInline>
                     <source src="/videos/yogavid.webm" type="video/webm"/>
                     <source src="/videos/yogavid.mp4" type="video/mp4"/>
                 </video>
