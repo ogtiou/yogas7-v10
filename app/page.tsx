@@ -21,6 +21,8 @@ export default function Home() {
 
   useGSAP(() => {
 
+    document.body.style.overflow = 'hidden'
+
     gsap.set(text.current, {
       y: '40%',
     })
