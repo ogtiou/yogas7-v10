@@ -125,7 +125,7 @@ export default function Home() {
           <div className="relative flex-1 flex items-center justify-center xl:justify-end xl:right-[7%]">
             <div className="flex flex-col my-[10%] items-center justify-center gap-6 text-[#c59245] text-center w-[90%] xl:w-[60%]">
               <p className="text-5xl lg:text-6xl 3xl:text-8xl font-bold">Moikka</p>
-              <p className="text-xl md:text-base lg:text-lg xl:text-xl 3xl:text-3xl font-semibold">Olen YOGA S7 yrityksen perustaja. Tarjoan hyvinvointia päästä varapaisiin.
+              <p className="text-xl md:text-base lg:text-lg xl:text-xl 3xl:text-3xl font-semibold">Olen YOGA S7 yrityksen perustaja. Tarjoan hyvinvointia päästä varpaisiin.
                 Elokuussa auennut jooga, pilates ja hyvnvoinnin studio
                 Lauttasaaressa Särkiniementie 5. <br /><br />Tule sellaisena kuin olet rauhaissaan
                 olohuoneeseen, kun tarvitsen hengähdystaukoa arjen keskellä tai hetken aikaa jakaa 
