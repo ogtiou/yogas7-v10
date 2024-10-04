@@ -21,8 +21,6 @@ export default function Home() {
 
   useGSAP(() => {
 
-    document.body.style.overflow = 'hidden'
-
     gsap.set(text.current, {
       y: '40%',
     })
@@ -35,6 +33,7 @@ export default function Home() {
         duration: 1.5,
         ease: 'power3.inOut'
       },
+      delay: 0.1,
       onStart: () => {
         document.body.style.overflow = 'hidden'
       },
