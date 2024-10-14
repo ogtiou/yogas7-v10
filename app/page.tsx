@@ -127,7 +127,7 @@ export default function Home() {
               <p className="text-xl md:text-base lg:text-lg xl:text-xl 3xl:text-3xl font-semibold">Olen YOGA S7 yrityksen perustaja. Tarjoan hyvinvointia päästä varpaisiin.
                 Elokuussa auennut jooga, pilates ja hyvnvoinnin studio
                 Lauttasaaressa Särkiniementie 5. <br /><br />Tule sellaisena kuin olet rauhaissaan
-                olohuoneeseen, kun tarvitsen hengähdystaukoa arjen keskellä tai hetken aikaa jakaa 
+                olohuoneeseen, kun tarvitset hengähdystaukoa arjen keskellä tai hetken aikaa jakaa 
                 ajatuksia. One moment can change a day. One day can change a life. One life can change the world.
                   <br /><br />-Buddha-
               </p>
